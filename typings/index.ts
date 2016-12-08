@@ -23,3 +23,27 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.set("port", appPort);  
+
+// ===============
+// REST API LOGIC
+// ===============
+var quoteApi = restful.model("quote", Quote.schema)  
+  .methods(["get", "post", "put", "delete"])
+  .register(app, "/api/quote");
+
+// ===============
+// DB 
+// ===============
+mongoose.connect(connectionString);  
+
+// ===============
+// SERVER
+// ===============
+let port:number = app.get("port");  
+var server = app.listen(port, function(){
+
+    // note: Only for debugging purposes to see that your variables are set correctly...
+    console.log("connectionString is: " + connectionString);
+    console.log("port is: " + port);
+    console.log("Server started listening...");
+});
