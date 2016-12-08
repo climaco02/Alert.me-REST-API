@@ -1,0 +1,27 @@
+{
+  "name": "alert.me-rest-api",
+  "version": "1.0.0",
+  "description": "REST API builded with MEAN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/climaco02/Alert.me-REST-API.git"
+  },
+  "author": "Code For Brasilia",
+  "license": "ISC",
+    "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.9",
+    "mongoose": "^4.6.0",
+    "node-restful": "^0.2.5"
+  },
+  "bugs": {
+    "url": "https://github.com/climaco02/Alert.me-REST-API/issues"
+  },
+  "homepage": "https://github.com/climaco02/Alert.me-REST-API#readme"
+}
