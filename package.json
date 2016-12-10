@@ -1,7 +1,7 @@
 {
-  "name": "alert.me-rest-api",
+  "name": "herokuquotesdemo",
   "version": "1.0.0",
-  "description": "REST API builded with MEAN",
+  "description": "Awesome Heroku Project Sample",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/climaco02/Alert.me-REST-API.git"
+    "url": "git+https://github.com/Zimmergren/heroku-quotes-demo.git"
   },
-  "author": "Code For Brasilia",
+  "author": "Tobias Zimmergren",
   "license": "ISC",
     "dependencies": {
     "body-parser": "^1.15.2",
@@ -21,7 +21,7 @@
     "node-restful": "^0.2.5"
   },
   "bugs": {
-    "url": "https://github.com/climaco02/Alert.me-REST-API/issues"
+    "url": "https://github.com/Zimmergren/heroku-quotes-demo/issues"
   },
-  "homepage": "https://github.com/climaco02/Alert.me-REST-API#readme"
+  "homepage": "https://github.com/Zimmergren/heroku-quotes-demo#readme"
 }
